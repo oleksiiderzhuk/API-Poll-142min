@@ -5,12 +5,7 @@ adding a record
     edit Poll.php: add protected $fillable = ['title]
     making POST request with Insomnia program to http://127.0.0.1:8000/api/polls: 201Created :)
     making POST request with Postman: POST to http://127.0.0.1:8000/api/polls with KEY=title; VALUE=testing2: status 201Created :)
-    
-
-
-
-    
-    
+  
     
 ---
 
