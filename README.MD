@@ -1,3 +1,10 @@
+to display a single record 
+    edit routes/api.php
+    create public function show() in PollsController.php
+
+
+---
+
 php artisan migrate:fresh --seed
 
 php artisan make:model Poll
