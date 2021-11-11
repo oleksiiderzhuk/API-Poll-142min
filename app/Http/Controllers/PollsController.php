@@ -24,7 +24,7 @@ class PollsController extends Controller
     public function store(Request $request)
     {
         $rules = [
-            'title' => 'required|max:10',
+            'title' => 'required|max:255',
         ];
         $validator = Validator::make($request->all(), $rules);
         if ($validator->fails()){
