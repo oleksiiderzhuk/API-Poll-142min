@@ -27,7 +27,9 @@ class PollsController extends Controller
             'title' => 'required|max:10',
         ];
         $validator = Validator::make($request->all(), $rules);
-        dd($validator->fails());
+        if ($validator->fails()){
+            return response()->json($validator->errors(), 400);
+        };
         $poll = Poll::create($request->all());
         return response()->json($poll, 201);
     }
