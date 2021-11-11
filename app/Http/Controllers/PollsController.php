@@ -46,5 +46,9 @@ class PollsController extends Controller
         return response()->json(null, 204);
     }
     
+    public function errors()
+    {
+        return response()->json([], 501);
+    }
 
 }
