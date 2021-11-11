@@ -48,7 +48,7 @@ class PollsController extends Controller
     
     public function errors()
     {
-        return response()->json([], 501);
+        return response()->json(['msg' => 'Payment is required'], 501);
     }
 
 }
