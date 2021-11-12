@@ -1,3 +1,8 @@
+making resources for data transforming
+php artisan make:resource Poll      //creates /app/Http/Resources/Poll.php
+
+---
+
 adding a record
     create post route in routes/api.php
     create public function store() in PollsController.php
