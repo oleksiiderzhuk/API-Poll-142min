@@ -1,3 +1,9 @@
+making  endpoint for Questions, using QuestionsController
+php artisan make:controller QuestionsController --resource --model=Question
+api.php:
+Route::apiResource('questions', 'QuestionsController');
+---
+
 making resources for data transforming
 php artisan make:resource Poll      //creates /app/Http/Resources/Poll.php
 
