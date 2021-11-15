@@ -1,7 +1,18 @@
+Managing subresources
+
+Loading Subresources
+
+
+
+---
+
 making  endpoint for Questions, using QuestionsController
-php artisan make:controller QuestionsController --resource --model=Question
+    php artisan make:controller QuestionsController --resource --model=Question
 api.php:
-Route::apiResource('questions', 'QuestionsController');
+    Route::apiResource('questions', 'QuestionsCont roller');
+QuestionController.php:
+    
+
 ---
 
 making resources for data transforming
