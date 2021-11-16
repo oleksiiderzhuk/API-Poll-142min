@@ -1,0 +1,8 @@
+{
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "window.autoDetectColorScheme": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.semanticHighlighting.enabled": true
+}
