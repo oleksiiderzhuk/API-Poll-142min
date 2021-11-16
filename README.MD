@@ -1,9 +1,19 @@
+22 download endpoint
+php artisan make:controller FilesController
+routes/api.php - Route::get('files/get', 'FilesController@show');
+add public function show() to app/http/Controllers/FilesController
+copy somefile to storage/app/
+
+---
+
+21 Paginate the API
+
+---
+
 Managing subresources
 
 Loading Subresources
 Add relations
-
-
 
 ---
 
