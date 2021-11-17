@@ -1,5 +1,14 @@
 
-25.2
+26 Middleware to modify the reponse (the most common use of middleware on the response side)
+add custom HTTP header
+php artisan make:middleware HttpHeaders
+to call middleware after the response, we need replace content of handle method  - edit HttpHeaders.php
+edit Kernel.php
+test via GET request - RESPONSE will include Header with the name... :)
+
+---
+
+ 25.2
 to log both request and response - edit Logging.php
 Insomnia - make a request
 find log in the end of storage/logs/laravel.log with REQUEST local.DEBUG: GET and RESPONSE local.DEBUG: 200 
