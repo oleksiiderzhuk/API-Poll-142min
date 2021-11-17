@@ -1,5 +1,10 @@
 
-26 Middleware to modify the response (the most common use of middleware on the response side)
+26.2
+attach a single string to the header - edit Kernel.php; edit HttpHeadeers.php
+test via GET request - RESPONSE will include Header, specified in Kernel.php as httpHeaders:
+---
+
+26.1 Middleware to modify the response (the most common use of middleware on the response side)
 add custom HTTP header
 php artisan make:middleware HttpHeaders
 to call middleware after the response, we need replace content of handle method  - edit HttpHeaders.php
