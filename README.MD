@@ -1,5 +1,18 @@
 
 
+
+---
+
+24 Middleware Theory
+App - the center of an onion /center.png
+Each layer can modify the request and the response
+middleware ideas
+    Logging
+    Rate Limit
+    Authentication
+    Change date format
+Middleware is movable between frameworks
+
 ---
 
 23 file upload
