@@ -1,3 +1,15 @@
+
+
+---
+
+23 file upload
+api.php Route::post('files/create', 'FilesController@create');
+FilesController.php public function create()...
+Insomnia - Multipart post request http://127.0.0.1:8000/api/files/create
+    name: photo; select file <2Mb; SEND
+
+---
+
 22 download endpoint
 php artisan make:controller FilesController
 routes/api.php - Route::get('files/get', 'FilesController@show');

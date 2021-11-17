@@ -10,4 +10,11 @@ class FilesController extends Controller
     {
         return response()->download(storage_path('app/oleksii.webp'), 'Picture Downloading');
     }
+
+    public function create(Request $request)
+    {
+        $path = $request->file('photo')->store('testing');
+        return response()->json(['path'=>$path], 200);
+    }
+
 }
