@@ -1,3 +1,12 @@
+29.-30. OAuth
+Is a standard developed back in 2007
+API access without username\password
+OAuth2 was reworking, developed in 2012
+php artisan make:auth
+composer require laravel/passport....error
+
+---
+
 28. Basic Authentication
 php artisan make:middleware BasicAuth
 edit BasicAuth.php; Kernel.php
