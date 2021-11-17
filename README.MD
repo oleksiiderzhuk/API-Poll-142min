@@ -1,10 +1,15 @@
 
+25.2
+to log both request and response - edit Logging.php
+Insomnia - make a request
+find log in the end of storage/logs/laravel.log with REQUEST local.DEBUG: GET and RESPONSE local.DEBUG: 200 
+
 25.1 Creating a logging middleware layer
 php artisan make:middleware Logging
 To build in login feature - edit app/http/Middleware/Logging.php
 Add the middleware layer to application - edit app/Http/Kernel.php 
 Insomnia - make a couples of requests
-find logs in storage/logs/laravel.log 
+find logs in the end of storage/logs/laravel.log with REQUEST local.DEBUG: GET
 
 ---
 
