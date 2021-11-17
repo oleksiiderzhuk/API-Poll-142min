@@ -1,5 +1,14 @@
+28. Basic Authentication
+php artisan make:middleware BasicAuth
+edit BasicAuth.php; Kernel.php
+php artisan serve
+test with get request - error 401 UNAUTHORIZED
+fill BasicAuth data of request via Insomnia - USERNAME: api-poll.users.email; PASSWORD: secret;
+test with get request - 200 OK
 
-27.Token authentication.mp4
+----
+
+27.Token authentication
 Auth.png
 Token Authentication - we pass a token either as a header or in the URL parameters
 php artisan make:middleware TokenAuth
