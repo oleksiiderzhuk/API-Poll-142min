@@ -42,6 +42,7 @@ class Kernel extends HttpKernel
             'bindings',
             \App\Http\Middleware\Logging::class,
             'httpHeaders:Come Work ForUS!',
+            \App\Http\Middleware\TokenAuth::class,
         ],
     ];
 

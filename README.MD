@@ -1,5 +1,17 @@
 
-26.2
+27.Token authentication.mp4
+Auth.png
+Token Authentication - we pass a token either as a header or in the URL parameters
+php artisan make:middleware TokenAuth
+we need to check if the request has a certain header - edit TokenAuth.php; edit Kernel.php
+php artisan serve
+test with get request - error 401 UNAUTHORIZED
+fill headers data of request via Insomnia - NAME: X-API-TOKEN; VALUE: test-value;
+test with get request - 200 OK
+
+---
+
+26.2 
 attach a single string to the header - edit Kernel.php; edit HttpHeadeers.php
 test via GET request - RESPONSE will include Header, specified in Kernel.php as httpHeaders:
 ---
